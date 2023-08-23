@@ -1,7 +1,7 @@
 [
-    { "nombre": "Coca", "precio": 1500, "id": 1 },
-    { "nombre": "Producto 2", "precio": 2500, "id": 2 },
-    { "nombre": "Producto 3", "precio": 3500, "id": 3 },
-    { "nombre": "Producto 4", "precio": 4500, "id": 4 },
-    { "nombre": "Producto 5", "precio": 5500, "id": 5 }
+    { "nombre": "CocaCola", "precio": 1500, "id": 1 },
+    { "nombre": "Pancho con papas", "precio": 2500, "id": 2 },
+    { "nombre": "Balde grande de pochoclos", "precio": 3500, "id": 3 },
+    { "nombre": "Combo bebdida + Pochoclos", "precio": 4500, "id": 4 },
+    { "nombre": "Combo bebida + Nachos con cheddar", "precio": 5500, "id": 5 }
   ]
