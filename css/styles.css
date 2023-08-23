@@ -2,6 +2,7 @@
 a{
     margin: 15px;
 }
+
 :root {
     --padding-container: 100px 0;
     --color-title: #8A817C;
@@ -510,11 +511,5 @@ body {
     .footer__submit{
         margin-right: auto;
         margin-left: 0;
-        
-
-        /* 
-        margin:0;
-        width: 100%;
-        */
     }
 }

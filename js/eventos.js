@@ -32,20 +32,40 @@ class Cliente {
   const espectaculo1 = new Espectaculo("Tom, Dick & Harry", 4000, "comedia");
   const espectaculo2 = new Espectaculo ("Cocomelon", 2000, "musical");
   const espectaculo3 = new Espectaculo ("Matilda", 5000, "musical");
-  
-  // for(const key in Espectaculo){
-  //     if (Espectaculo.hasOwnProperty(key)) {
-  //         const element = Espectaculo[key];
-  //         console.log(element);
-  //     }
-  // }
-
-  // Object.values(Espectaculo).forEach((item) => console.log(item));
-
-  // console.log(Espectaculo[1]);
-
 
   const espectaculos = [espectaculo1, espectaculo2, espectaculo3];
   
 
   localStorage.setItem("espectaculos", JSON.stringify(espectaculos));
+
+
+  // const btn = document.getElementById("btn")
+  // btn.addEventListener("click", openSwal)
+
+  // function openSwal () {
+  //   const { value: password } = await Swal.fire({
+  //     title: 'Enter your password',
+  //     input: 'password',
+  //     inputLabel: 'Password',
+  //     inputPlaceholder: 'Enter your password',
+  //     inputAttributes: {
+  //       maxlength: 10,
+  //       autocapitalize: 'off',
+  //       autocorrect: 'off'
+  //     }
+  //   })
+    
+  //   if (password) {
+  //     Swal.fire(`Entered password: ${password}`)
+  //   }
+
+  // }
+
+  // const getData = async () => {
+  //   const res = await fetch("")
+  // }
+
+  // let counter = 0
+  // const interval = setInterval(() => {
+
+  // })

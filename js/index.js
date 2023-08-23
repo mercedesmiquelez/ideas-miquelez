@@ -7,13 +7,30 @@ function agregarProducto() {
   const producto = input.value;
   productos.push(producto);
   input.value = "";
+  Toastify({
+    text: "Producto agregado!",
+    duration: 2000,
+    style: {
+      background: 'linear-gradient(to right, #f9a470, #bc556f)'
+      }
+    }).showToast();
   mostrarProductos();
-  
 }
 
 function eliminarProducto(index) {
   productos.splice(index, 1);
-  mostrarProductos();
+  Swal.fire({
+    title: "Confirmas eliminar el producto?",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonText: "Si, confirmo.",
+    cancelButtonText: "No, me arrepenti.",
+  }).then((result) => {
+    if (result.isConfirmed) {
+      productos.splice(index, 1);
+      mostrarProductos();
+    }
+  });
 }
 
 function mostrarProductos() {
